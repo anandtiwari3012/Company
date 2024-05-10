@@ -1,0 +1,26 @@
+#add-product-form{
+    border:  solid black;
+    width: 400px;
+    height: 660px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#modify-product-form{
+    border:  solid black;
+    width: 400px;
+    height: 660px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#delete-product-form{
+    border:  solid black;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

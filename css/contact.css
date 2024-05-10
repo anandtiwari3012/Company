@@ -1,0 +1,39 @@
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(250, 188, 74);
+}
+h1{
+    color: white;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#icon{
+    margin-left: 27%;
+}
+.icon{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+}

@@ -1,0 +1,35 @@
+#add-post-form{
+    border:  solid black;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#update-post-form{
+    border:  solid black;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#delete-post-form{
+        border:  solid black;
+        width: 400px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+.title{
+    text-align: center;
+}
+.t{
+margin-bottom: 10px;
+}
+.delete{
+ margin: bottom 10px; ;
+}

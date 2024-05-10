@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    margin-bottom: 80px; 
+    margin: 0;
+    padding-bottom: 100px; /* Adjust this value based on your footer's height */
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .admin-panel {
+    margin-top: 50px;
+  }
+  .sidebar {
+    background-color: #343a40;
+    color: #fff;
+    height: 300px;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #4e555b;
+  }
+  .sidebar ul li:last-child {
+    border-bottom: none;
+  }
+  .content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .footer{
+    background-color: black;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 180px; Adjust this value based on your footer's height */
+  }
+  #dash{
+    margin-left: 300px;
+  }

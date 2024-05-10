@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <div class="container-fluid admin-panel">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar" id="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+          <li><a href="home.html">Dashboard</a></li>
+          <li><a href="view_inquiry.html">Enquiry</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="admin_blog.html">Blogs</a></li>
+        </ul>
+      </div>
+        <!-- Add Product Form -->
+        <form id="add-product-form">
+            <h2>Add Product</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="image-url">Image URL:</label>
+                <input type="text" class="form-control" id="image-url" name="image_url">
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="number" class="form-control" id="price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea class="form-control" id="description" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="attribute">Attribute:</label>
+                <input type="text" class="form-control" id="attribute" name="attribute">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Product</button>
+        </form>
+
+        <!-- Modify Product Form -->
+        <form id="modify-product-form">
+            <h2>Modify Product</h2>
+            <div class="form-group">
+                <label for="modify-id">Product ID:</label>
+                <input type="text" class="form-control" id="modify-id" name="id">
+            </div>
+            <div class="form-group">
+                <label for="modify-name">New Name:</label>
+                <input type="text" class="form-control" id="modify-name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="modify-image-url">New Image URL:</label>
+                <input type="text" class="form-control" id="modify-image-url" name="image_url">
+            </div>
+            <div class="form-group">
+                <label for="modify-price">New Price:</label>
+                <input type="text" class="form-control" id="modify-price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="modify-description">New Description:</label>
+                <textarea class="form-control" id="modify-description" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="modify-attribute">New Attribute:</label>
+                <input type="text" class="form-control" id="modify-attribute" name="attribute">
+            </div>
+            <button type="submit" class="btn btn-primary">Modify Product</button>
+        </form>
+
+        <!-- Delete Product Form -->
+        <form id="delete-product-form">
+            <h2>Delete Product</h2>
+            <div class="form-group">
+                <label for="delete-id">Product ID:</label>
+                <input type="text" class="form-control" id="delete-id" name="id">
+            </div>
+            <button type="submit" class="btn btn-danger">Delete Product</button>
+        </form>
+    </div>
+    <footer class="footer">
+        @copyright reserved
+      </footer>
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="admin_product.js"></script>
+</body>
+</html>
